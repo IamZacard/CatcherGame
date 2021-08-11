@@ -17,7 +17,24 @@ public class HurtPlayer : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive / 6);
+        }
+    }
+    
+
+    /*private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
@@ -29,7 +46,7 @@ public class HurtPlayer : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive/2);
+            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive/6);
         }
-    }
+    }*/
 }

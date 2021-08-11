@@ -6,7 +6,7 @@ public enum EnemyState
 {
     idle,
     walk,
-    attack,
+    attacking,
     stagger,
     death
 }
@@ -15,24 +15,12 @@ public class Enemy : MonoBehaviour
 {
     public EnemyState CurrentState;
     private Vector2 movement;
-
-    
-    private float Health;
-
-    
+           
     private void Awake()
     {
         
     }
 
-    private void TakeDamage(float Damage)
-    {
-        Health -= Damage;
-        if (Health <= 0)
-        {
-            this.gameObject.SetActive(false);
-        }
-    }   
 
 }
 

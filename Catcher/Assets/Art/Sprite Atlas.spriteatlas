@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 6a42733d1fe3c1b44985988439f08b25, type: 3}
-    totalSpriteSurfaceArea: 10414619
+    totalSpriteSurfaceArea: 10403172
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -113,7 +113,12 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 091f90b2833836140856545f49a4c8e2, type: 3}
   - {fileID: 21300000, guid: 9ffc89b2d40791f40b6df385202bb919, type: 3}
   - {fileID: 21300000, guid: c257dfb28f454fc42b2d4a02ddd233d0, type: 3}
-  - {fileID: 21300000, guid: a05550d20e09e9943b9aca7adfc843b9, type: 3}
+  - {fileID: 8405476814967859603, guid: a05550d20e09e9943b9aca7adfc843b9, type: 3}
+  - {fileID: 3743957659742367504, guid: a05550d20e09e9943b9aca7adfc843b9, type: 3}
+  - {fileID: 1521079245874940812, guid: a05550d20e09e9943b9aca7adfc843b9, type: 3}
+  - {fileID: -5086530901905536447, guid: a05550d20e09e9943b9aca7adfc843b9, type: 3}
+  - {fileID: 8831429847189535439, guid: a05550d20e09e9943b9aca7adfc843b9, type: 3}
+  - {fileID: 4010896587680814743, guid: a05550d20e09e9943b9aca7adfc843b9, type: 3}
   - {fileID: -561707785172425875, guid: f961a6e234d0fcd4bb771af6d63d668d, type: 3}
   - {fileID: -4410277159837956280, guid: f961a6e234d0fcd4bb771af6d63d668d, type: 3}
   - {fileID: 6963869828799008140, guid: f961a6e234d0fcd4bb771af6d63d668d, type: 3}
@@ -389,7 +394,13 @@ SpriteAtlas:
   - {fileID: 21300000, guid: ac39499a5bb7f194695cbbcbf680b7d6, type: 3}
   - {fileID: 21300000, guid: 3c27d7cad6681b14aba07e85aeea742a, type: 3}
   - {fileID: 21300000, guid: 483605ead492a584c9bef649fd9bcc41, type: 3}
-  - {fileID: 21300000, guid: a13e9f0b5f929f443b321560154a3883, type: 3}
+  - {fileID: -2330519403281856691, guid: a13e9f0b5f929f443b321560154a3883, type: 3}
+  - {fileID: -49130668184793455, guid: a13e9f0b5f929f443b321560154a3883, type: 3}
+  - {fileID: -4796932125324312052, guid: a13e9f0b5f929f443b321560154a3883, type: 3}
+  - {fileID: -5600206312213581617, guid: a13e9f0b5f929f443b321560154a3883, type: 3}
+  - {fileID: 5986030973748356752, guid: a13e9f0b5f929f443b321560154a3883, type: 3}
+  - {fileID: -3690502768834906923, guid: a13e9f0b5f929f443b321560154a3883, type: 3}
+  - {fileID: 3815954189206336483, guid: a13e9f0b5f929f443b321560154a3883, type: 3}
   - {fileID: 21300000, guid: 9a8e023b5e66b0d478386a07d1627765, type: 3}
   - {fileID: 3968659893341466949, guid: 9f55d53b0b5ecee409e3568836f06058, type: 3}
   - {fileID: 6495761399759928590, guid: 9f55d53b0b5ecee409e3568836f06058, type: 3}
@@ -648,7 +659,12 @@ SpriteAtlas:
   - portal49
   - noBKG_KnightDeath_strip
   - portal06
-  - Move
+  - Move_1
+  - Move_0
+  - Move_3
+  - Move_2
+  - Move_5
+  - Move_4
   - Dash_8
   - Dash_9
   - Dash_6
@@ -924,7 +940,13 @@ SpriteAtlas:
   - redblue (2)
   - Pit_Trap_Spikes
   - portal26
-  - Explosion
+  - Explosion_5
+  - Explosion_4
+  - Explosion_6
+  - Explosion_1
+  - Explosion_0
+  - Explosion_3
+  - Explosion_2
   - Heart
   - Death_6
   - Death_7

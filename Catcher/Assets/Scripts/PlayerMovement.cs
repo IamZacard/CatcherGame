@@ -15,6 +15,7 @@ public enum PlayerState
 
 public class PlayerMovement : MonoBehaviour
 {
+    //public ParticleSystem Dust;
     public PlayerState currentState;
     public float speed;
     private Rigidbody2D myRigidBody;
@@ -140,6 +141,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    
     /*void DashChar()
     {
         dashCount -= Time.deltaTime;
